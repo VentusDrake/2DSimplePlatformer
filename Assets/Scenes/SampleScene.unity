@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 52794188}
   m_Layer: 7
   m_Name: Triangle (3)
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 126833112}
   m_Layer: 7
   m_Name: Triangle (1)
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -543,7 +543,7 @@ GameObject:
   - component: {fileID: 185515760}
   m_Layer: 6
   m_Name: Platform3
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -856,7 +856,7 @@ GameObject:
   - component: {fileID: 583860946}
   m_Layer: 7
   m_Name: GroundSpikes
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -868,16 +868,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583860945}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3754543, y: -0.36184898, z: 0.32161343}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.70875084, y: 0.09497747, z: 0.24601035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1078463508}
   - {fileID: 849624129}
   - {fileID: 1339610509}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1855289665}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &588100006
 GameObject:
@@ -893,7 +893,7 @@ GameObject:
   - component: {fileID: 588100008}
   m_Layer: 6
   m_Name: Platform1
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1051,7 +1051,7 @@ GameObject:
   - component: {fileID: 622863719}
   m_Layer: 6
   m_Name: Wall1
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1339,7 +1339,7 @@ GameObject:
   - component: {fileID: 736522827}
   m_Layer: 7
   m_Name: GroundSpikes (3)
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1351,15 +1351,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736522826}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3754543, y: -0.36184898, z: 0.32161343}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.70875084, y: 0.09497747, z: 0.24601035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2057768038}
   - {fileID: 1822860347}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1855289665}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &740020399
 GameObject:
@@ -1375,7 +1375,7 @@ GameObject:
   - component: {fileID: 740020401}
   m_Layer: 7
   m_Name: Triangle
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1535,6 +1535,7 @@ GameObject:
   - component: {fileID: 791433169}
   - component: {fileID: 791433170}
   - component: {fileID: 791433171}
+  - component: {fileID: 791433172}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1602,7 +1603,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791433166}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.53, y: -3.74, z: 0}
+  m_LocalPosition: {x: -7.48, y: -3.74, z: 0}
   m_LocalScale: {x: 0.5257598, y: 0.6235265, z: 0.7612}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1628,7 +1629,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: da64805f1c019ab4785ce325f5d5482f, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1694,6 +1695,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0032378065, y: 0.30641755}
   m_Size: {x: 1.0064753, y: 2.6128352}
   m_Direction: 0
+--- !u!114 &791433172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791433166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79c082bfb5da774c83f105b83cf54ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &816618042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1793,7 +1806,7 @@ GameObject:
   - component: {fileID: 849624130}
   m_Layer: 7
   m_Name: Triangle (1)
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1951,7 +1964,7 @@ GameObject:
   - component: {fileID: 916918243}
   m_Layer: 7
   m_Name: GroundSpikes (1)
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1963,16 +1976,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916918242}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3754543, y: -0.36184898, z: 0.32161343}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.70875084, y: 0.09497747, z: 0.24601035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 740020400}
   - {fileID: 126833111}
   - {fileID: 1675739968}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1855289665}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &979659399
 GameObject:
@@ -1988,7 +2001,7 @@ GameObject:
   - component: {fileID: 979659401}
   m_Layer: 7
   m_Name: Triangle (1)
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2149,7 +2162,7 @@ GameObject:
   - component: {fileID: 1002729397}
   m_Layer: 7
   m_Name: Triangle
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2310,7 +2323,7 @@ GameObject:
   - component: {fileID: 1078463509}
   m_Layer: 7
   m_Name: Triangle
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2471,7 +2484,7 @@ GameObject:
   - component: {fileID: 1101226865}
   m_Layer: 7
   m_Name: Triangle (2)
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2629,7 +2642,7 @@ GameObject:
   - component: {fileID: 1117201778}
   m_Layer: 7
   m_Name: GroundSpikes (2)
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2641,8 +2654,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117201777}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3754543, y: -0.36184898, z: 0.32161343}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.70875084, y: 0.09497747, z: 0.24601035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2651,8 +2664,8 @@ Transform:
   - {fileID: 1101226864}
   - {fileID: 52794187}
   - {fileID: 1518037836}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1855289665}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1147362880
 GameObject:
@@ -2668,7 +2681,7 @@ GameObject:
   - component: {fileID: 1147362881}
   m_Layer: 6
   m_Name: Platform4
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2826,7 +2839,7 @@ GameObject:
   - component: {fileID: 1158021552}
   m_Layer: 6
   m_Name: FLoor1
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3070,7 +3083,7 @@ GameObject:
   - component: {fileID: 1339610510}
   m_Layer: 7
   m_Name: Triangle (2)
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3315,7 +3328,7 @@ GameObject:
   - component: {fileID: 1425173410}
   m_Layer: 6
   m_Name: Down Wall
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3459,6 +3472,53 @@ Transform:
   m_Father: {fileID: 713183895}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1451702708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1451702710}
+  - component: {fileID: 1451702709}
+  m_Layer: 0
+  m_Name: SpikeSpawner
+  m_TagString: fallingSpikes
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1451702709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451702708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db1aa9cd13542d543990c6bbec092bdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallingSpike: {fileID: 7398727247748142054, guid: b1b7f818adc6242409bf1f44e6e50fdd, type: 3}
+  playerPosition: {fileID: 791433168}
+  spawnRate: 0
+--- !u!4 &1451702710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451702708}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0.71662885}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1452587155
 GameObject:
   m_ObjectHideFlags: 0
@@ -3504,7 +3564,7 @@ GameObject:
   - component: {fileID: 1518037837}
   m_Layer: 7
   m_Name: Triangle (1)
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3665,7 +3725,7 @@ GameObject:
   - component: {fileID: 1675739969}
   m_Layer: 7
   m_Name: Triangle (2)
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3826,7 +3886,7 @@ GameObject:
   - component: {fileID: 1822860348}
   m_Layer: 7
   m_Name: Triangle (2)
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3973,6 +4033,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1855289664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1855289665}
+  m_Layer: 0
+  m_Name: GroundSpikesLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1855289665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855289664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3332965, y: -0.45682645, z: 0.07560308}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 583860946}
+  - {fileID: 916918243}
+  - {fileID: 1117201778}
+  - {fileID: 736522827}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1860254347
 GameObject:
   m_ObjectHideFlags: 0
@@ -3987,7 +4082,7 @@ GameObject:
   - component: {fileID: 1860254350}
   m_Layer: 6
   m_Name: Little roof
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4303,7 +4398,7 @@ GameObject:
   - component: {fileID: 2057768039}
   m_Layer: 7
   m_Name: Triangle (1)
-  m_TagString: Untagged
+  m_TagString: groundSpikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4548,7 +4643,7 @@ GameObject:
   - component: {fileID: 2078947484}
   m_Layer: 6
   m_Name: Platform 2
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

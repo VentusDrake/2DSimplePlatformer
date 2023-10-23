@@ -5,11 +5,8 @@ using UnityEngine;
 
 public class KillingPlayer : MonoBehaviour
 {
-    private int lifeCounter;
-
     private void Start()
     {
-        lifeCounter = 2;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

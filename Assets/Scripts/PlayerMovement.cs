@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     public float jumpPower;
     private bool isFacingRight = true;
+    public int score = 0;
 
     public Transform groundCheck;
     public float groundCheckRadius;
@@ -49,5 +51,11 @@ public class PlayerMovement : MonoBehaviour
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
+    }
+    [ContextMenu("Increase Score")]
+    public void addScore()
+    {
+        score += 1;
+        Debug.Log(score);
     }
 }

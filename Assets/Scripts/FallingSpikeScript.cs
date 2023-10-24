@@ -10,7 +10,7 @@ public class FallingSpikeScript : MonoBehaviour
     {
         if(collision.gameObject.tag == "ground")
         {
-            Destroy(gameObject);
+            Destroy(transform.parent.gameObject);
         }
         
     }

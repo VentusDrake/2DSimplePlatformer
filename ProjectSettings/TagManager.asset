@@ -7,6 +7,7 @@ TagManager:
   - groundSpikes
   - ground
   - fallingSpikes
+  - coinLogic
   layers:
   - Default
   - TransparentFX
